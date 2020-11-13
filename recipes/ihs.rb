@@ -14,3 +14,7 @@ end
 service 'httpd' do 
   action [ :enable, :start]
 end
+
+package 'tree' do
+  action :install
+end
